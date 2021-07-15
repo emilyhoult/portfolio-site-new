@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+@font-face {
+   font-family: 'Argesta Display';
+   src: url('argestadisplay-regular-webfont.ttf');
+}
+
+@font-face {
+   font-family: 'Silka Regular';
+   src: url('silka-regular-webfont.ttf');
+}
+
+@font-face {
+   font-family: 'Silka Italic';
+   src: url('silka-regularitalic-webfont.ttf');
+}
+
+body {
+  font-family: 'Silka Regular', sans-serif;
+}
+
+h1 {
+  font-family: 'Argesta Display', serif;
+}
