@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+@import "components/index";
+
 @font-face {
    font-family: 'Argesta Display';
    src: url('argestadisplay-regular-webfont.ttf');
@@ -30,8 +32,26 @@
 
 body {
   font-family: 'Silka Regular', sans-serif;
+  letter-spacing: -0.02em;
+  background-color: #FCFCFC;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #0A0B0D;
 }
 
 h1 {
   font-family: 'Argesta Display', serif;
+  margin: 0 0 32px 0;
+  font-weight: 400;
+  font-size: 116px;
+  line-height: 139.2px;
+  margin: 0 0 32px 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

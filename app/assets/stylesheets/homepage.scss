@@ -1,10 +1,20 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+#homepage {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 .name {
-  font-weight: 400;
-  font-size: 116px;
-  line-height: 139.2px;
+  margin-top: 163px;
 }
 
 .title {
@@ -12,4 +22,37 @@
   font-size: 48px;
   line-height: 69.36px;
   letter-spacing: -0.02em;
+  padding-left: 4px;
+  margin: 0;
+}
+
+#cv-btn {
+  margin-left: 4px;
+  margin-top: 32px;
+}
+
+@media (min-width: 992px) {
+  #homepage {
+    max-width: 1160px;
+  }
+}
+
+.about {
+  margin-top: -104px;
+}
+
+.circle-svg {
+  z-index: 1;
+  position: absolute;
+  top: 489px;
+  right: 12px;
+}
+
+.svgs {
+  justify-content: flex-end;
+}
+
+.polka-square-svg {
+  margin-right:115px;
+  margin-top: 60px;
 }
