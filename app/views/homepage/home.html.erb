@@ -8,7 +8,7 @@
     <button class="btn btn-primary" id="cv-btn">Download CV</button>
   </div>
 
-  <div class="d-flex svgs">
+  <div class="d-flex svgs circle">
     <%= image_tag("circle.svg", class: "circle-svg") %>
     <%= image_tag("polka dots - square.svg", class: "polka-square-svg") %>
   </div>
@@ -26,4 +26,54 @@
     </div>
   </div>
 
+    <div class="d-flex svgs triangle">
+    <%= image_tag("triangle.svg", class: "triangle-svg") %>
+    <%= image_tag("polka dots - rectangle.svg", class: "polka-rectangle-svg") %>
+  </div>
+
+  <div class="skills-section d-flex">
+    <h2 class="skills col-12">Skills & Tools</h2>
+    <div class="col-4 web-li">
+      <div class="d-flex mb-4">
+        <%= image_tag("square.svg", class: "square-svg") %>
+        <h5 class="m-0">Web Development</h5>
+      </div>
+      <ul>
+        <li>HTML, CSS, SCSS</li>
+        <li>JavaScript, Bootstrap</li>
+        <li>Ruby, Rails, SQL</li>
+        <li>APIs, Scraping</li>
+      </ul>
+    </div>
+    <div class="col-4 ui-li">
+      <div class="d-flex mb-4">
+        <%= image_tag("square.svg", class: "square-svg") %>
+        <h5 class="m-0">UI/UX Design</h5>
+      </div>
+      <ul>
+        <li>User Research & Testing</li>
+        <li>User Journeys & Flows</li>
+        <li>Wireframing, Prototyping</li>
+        <li>Style Guides, Mood Boards</li>
+        <li>Logos, Branding</li>
+      </ul>
+    </div>
+    <div class="col-4 software-li">
+      <div class="d-flex mb-4">
+        <%= image_tag("square.svg", class: "square-svg") %>
+        <h5 class="m-0">Software & Tools</h5>
+      </div>
+      <ul>
+        <li>Sketch, Adobe XD, Figma</li>
+        <li>Git, GitHub, Heroku</li>
+        <li>Microstrategy, Tableau</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="work-section d-flex">
+    <h1 class="work col-12">Work</h1>
+    <h2>UI/UX Design</h2>
+  </div>
 </div>

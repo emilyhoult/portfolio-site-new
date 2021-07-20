@@ -48,7 +48,7 @@
   right: 12px;
 }
 
-.svgs {
+.svgs.circle {
   justify-content: flex-end;
 }
 
@@ -61,4 +61,55 @@
   font-size: 18px;
   line-height: 30.78px;
   text-align: justify;
+}
+
+.svgs.triangle {
+  margin-top: 180px;
+}
+
+.triangle-svg {
+  z-index: 1;
+  position: absolute;
+  top: 1466px;
+  left: 38px;
+
+}
+
+.polka-rectangle-svg {
+  margin-top: 150px;
+}
+
+
+.skills-section {
+  margin-top: -411px;
+  flex-flow: row wrap;
+  margin-left: 230px;
+
+  li {
+    margin-bottom: 12px;
+  }
+
+  .square-svg {
+  padding-right: 12px;
+  padding-bottom: 2px;
+  }
+
+  .ui-li {
+    padding-left: 52px;
+  }
+
+  .software-li {
+    padding-left: 76px;
+  }
+
+}
+
+.work-section {
+  justify-content: center;
+  margin-top: 200px;
+  flex-flow: row wrap;
+
+  .work {
+    text-align: center;
+  }
 }
