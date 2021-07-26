@@ -1,4 +1,4 @@
-<div class="container d-flex" id="photos-page">
+<div class="container d-flex flex-grow-1" id="photos-page">
   <div class="row d-flex justify-content-between m-0">
       <%= image_tag("img-01.jpg", class: "photos-img img-l") %>
       <%= image_tag("img-02.jpg", class: "photos-img img-c") %>
@@ -99,7 +99,25 @@
       <%= image_tag("img-59.jpg", class: "photos-img img-c") %>
       <%= image_tag("img-60.jpg", class: "photos-img img-r") %>
   </div>
-  <div class="row d-flex justify-content-between m-0">
-      <%= image_tag("img-61.jpg", class: "photos-img img-l") %>
+  <div class="footer-photos">
+    <%= image_tag("rectangle.svg", class: "rectangle") %>
+    <%= image_tag("p-dot-9.svg", class: "p-dot-9") %>
+    <div class="contact-section">
+      <h1 class="contact">Contact</h1>
+      <p>If you like my work and want to discuss opportunities, please get in touch!</p>
+      <div class="email d-flex">
+        <h6 class="email-me">Email Me</h6>
+        <%= image_tag("ArrowRight.svg", class: "arrow-right") %>
+      </div>
+    </div>
+    <div class="social-links">
+      <ul>
+        <li class="social">LinkedIn</li>
+        <li class="social">Behance</li>
+        <li class="social">Dribbble</li>
+        <li class="social">GitHub</li>
+      </ul>
+    </div>
+    <p id="copyright">© Emily Hoult 2021</p>
   </div>
 </div>
