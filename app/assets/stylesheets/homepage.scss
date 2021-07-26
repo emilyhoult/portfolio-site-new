@@ -121,6 +121,11 @@
     margin-bottom: 64px;
     z-index: 1;
     position: absolute;
+    transition: all .16s ease-in-out;
+  }
+
+  .work-img:hover {
+    transform: scale(1.5);
   }
 
   .cubo-cover {
