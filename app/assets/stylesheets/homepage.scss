@@ -118,9 +118,57 @@
     justify-content: center;
     width: 422px;
     margin-bottom: 64px;
+    z-index: 1;
+    position: absolute;
   }
 
-  .web-dev {
-    margin-top: 56px;
+  .work-svgs {
+    .p-dot-3 {
+      position: absolute;
+      top: 2511px;
+      left: 541px;
+    }
+
+    .s-circle-1 {
+      position: absolute;
+      top: 2734px;
+      left: 2px;
+    }
+
+    .p-dot-4 {
+      position: absolute;
+      top: 2839px;
+      left: 49px;
+    }
+
+    .p-dot-5 {
+      position: absolute;
+      top: 2949px;
+      left: 433px;
+    }
+
+    .p-dot-6 {
+      position: absolute;
+      top: 3416px;
+      left: 340px;
+    }
+
+    .p-dot-7 {
+      position: absolute;
+      top: 3285px;
+      left: 1028px;
+    }
+
+    .p-dot-8 {
+      position: absolute;
+      top: 3807px;
+      left: 86px;
+    }
+
+    .s-circle-2 {
+      position: absolute;
+      top: 3777px;
+      left: 462px;
+    }
   }
 }
