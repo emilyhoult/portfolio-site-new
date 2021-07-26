@@ -1,3 +1,25 @@
-// Place all the styles related to the photos controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+#photos-page {
+  max-width: 1150px;
+  padding:0;
+  margin-top: 175px;
+  flex-wrap: wrap;
+
+  .photos-img {
+    width: 362px;
+    padding:0;
+  }
+
+  .img-l {
+    margin: 0 16px 32px 0;
+  }
+
+  .img-c {
+    margin: 0 16px 32px 16px;
+  }
+
+  .img-r {
+    margin: 0 0 32px 16px;
+  }
+}
+
+
