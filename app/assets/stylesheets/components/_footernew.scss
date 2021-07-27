@@ -24,6 +24,17 @@
     }
   }
 
+  #email-btn {
+    margin-top: 32px;
+  }
+
+  #email-btn:hover {
+    .email-me, .arrow-right {
+      color: #0A0B0D;
+    }
+
+  }
+
   .social-links {
     .social {
       margin-bottom: 16px;
