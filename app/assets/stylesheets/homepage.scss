@@ -39,7 +39,7 @@
 
 .about {
   margin-top: -136px;
-  padding-top: 32px;
+  padding: 32px 0 0 0;
 }
 
 .circle-svg {
@@ -58,14 +58,22 @@
   margin-top: 60px;
 }
 
-.about-section p {
-  font-size: 18px;
-  line-height: 30.78px;
-  text-align: justify;
+.about-section {
+  .emilyhoult {
+    width: 418px;
+    margin-left: 38px;
+    margin-top: -90px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30.78px;
+    text-align: justify;
+  }
 }
 
 .svgs.triangle {
-  margin-top: 180px;
+  margin-top: 133px;
 }
 
 .triangle-svg {

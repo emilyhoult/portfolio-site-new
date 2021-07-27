@@ -1,23 +1,25 @@
-<div class="container fixed-top">
+<div class="container fixed-top" id="navbar">
     <% if current_page?(controller: :homepage, action: :home) %>
       <div class="navbar justify-content-end">
         <div class="d-flex justify-content-end text-right">
           <ul>
-           <a href="#work"><li>Work</li></a>
-           <a href="#about"><li>About</li></a>
-           <a href="#contact"><li>Contact</li></a>
+           <li><a href="#work" class="link link--line">Work</a></li>
+           <li><a href="#about" class="link link--line">About</a></li>
+           <li><a href="#contact" class="link link--line">Contact</a></li>
          </ul>
        </div>
       </div>
     <% else %>
       <div class="navbar justify-content-between">
+        <a href="/">
           <div class="logo-box">
             <h2 class="logo">EH</h2>
           </div>
+        </a>
          <ul>
-           <a href="/#work"><li>Work</li></a>
-           <a href="/#about"><li>About</li></a>
-           <a href="#contact"><li>Contact</li></a>
+           <li><a href="/#work" class="link link--line">Work</a></li>
+           <li><a href="/#about" class="link link--line">About</a></li>
+           <li><a href="#contact" class="link link--line">Contact</a></li>
          </ul>
       </div>
     <% end %>

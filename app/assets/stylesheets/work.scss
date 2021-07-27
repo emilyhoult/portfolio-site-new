@@ -1,12 +1,17 @@
 // Place all the styles related to the work controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-.cs-section {
-  margin-top: 182px;
+#cs-section {
+  margin-top: 68px;
 
   .case-study {
     max-width: 1103px;
   }
 }
 
+@media (min-width: 990px) {
+  .cs-section {
+    max-width: 1160px;
+  }
+}
 
