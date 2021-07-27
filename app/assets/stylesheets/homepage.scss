@@ -38,7 +38,8 @@
 }
 
 .about {
-  margin-top: -104px;
+  margin-top: -136px;
+  padding-top: 32px;
 }
 
 .circle-svg {
@@ -106,13 +107,14 @@
 
 .work-section {
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 168px;
   flex-flow: row wrap;
   height: 1774px;
 
   .work {
     text-align: center;
     margin-bottom: 120px;
+    padding-top:32px;
   }
 
   .work-img {
