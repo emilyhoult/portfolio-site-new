@@ -9,11 +9,9 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import 'bootstrap';
 
+require('../custom/scrolling');
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-
-
-
-
 
