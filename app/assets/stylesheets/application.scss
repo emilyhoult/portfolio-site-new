@@ -30,11 +30,55 @@
    src: url('silka-regularitalic-webfont.ttf');
 }
 
+* {
+  cursor: none;
+}
+
 body {
   font-family: 'Silka Regular', sans-serif;
   letter-spacing: -0.02em;
   background-color: #0A0B0D;
+  transition: all .2s linear;
+  // height: 100vh;
+  cursor: none;
 }
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  background: #85ff00;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  // transition-duration: 200ms;
+  // transition-timing-function: ease-out;
+}
+
+.hover {
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+.grow {
+  transform: scale(1.4);
+  background-color:#85ff00;
+  mix-blend-mode: exclusion;
+  animation: mousePulse 1.4s infinite ease-in-out;
+}
+
+@keyframes mousePulse {
+  0% {
+    transform: scale(1)
+  }
+  40% {
+    transform: scale(1.5)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6, p, li {
   color: #FCFCFC;
