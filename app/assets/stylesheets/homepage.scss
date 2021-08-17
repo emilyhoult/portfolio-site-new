@@ -98,7 +98,7 @@
   z-index: 1;
   position: absolute;
   top: 489px;
-  right: 12px;
+  right: 60px;
 }
 
 .svgs.circle {
@@ -106,7 +106,7 @@
 }
 
 .p-dot-1 {
-  margin-right:115px;
+  margin-right:166px;
   margin-top: 60px;
 }
 
@@ -118,8 +118,9 @@
   }
 
   p {
-    font-size: 18px;
-    line-height: 30.78px;
+    font-size: 20px;
+    font-family: 'HKGrotesk-Light', sans-serif;
+    line-height: 33.78px;
     text-align: justify;
   }
 
@@ -135,7 +136,7 @@
 .triangle-svg {
   z-index: 1;
   position: absolute;
-  top: 1466px;
+  top: 1478px;
   left: 38px;
 
 }
@@ -150,8 +151,17 @@
   flex-flow: row wrap;
   margin-left: 230px;
 
+  h5 {
+    font-family: 'HKGrotesk-Medium', sans-serif;
+    letter-spacing: 0em;
+    font-size: 22px;
+  }
+
   li {
-    margin-bottom: 12px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    letter-spacing: 0em;
+    font-family: 'HKGrotesk-Light', sans-serif;
   }
 
   .square-svg {
