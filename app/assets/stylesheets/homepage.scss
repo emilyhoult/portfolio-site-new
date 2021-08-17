@@ -197,53 +197,178 @@
     margin-bottom: 64px;
     z-index: 1;
     position: absolute;
-    transition: all .16s ease-in-out;
+    transition: background-size 2s ease-in-out;
+    width:422px;
+    height:276px;
   }
 
-  .work-img:hover {
-    transform: scale(1.5);
-  }
+  // .work-img:hover {
+  //   transform: scale(1.5);
+  // }
 
-  .cubo-cover {
+  // .work-img:hover {
+  //   background-size: auto 110%;
+  // }
+
+  .work-img-cubo {
+    width: 422px;
+    height: 276px;
     position: absolute;
+    overflow:hidden;
     top:2479px;
     left:125px;
   }
 
-  .glow-cover{
+  .cubo-cover {
+    background-image: image-url("cubocover@2x.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .cubo-cover:hover,
+  .cubo-cover:focus {
+    transform: scale(1.1);
+  }
+
+  .work-img-glow {
+    width: 422px;
+    height: 276px;
     position: absolute;
+    overflow:hidden;
     top:2596px;
     left:676px;
   }
 
-  .wanderlist-cover{
+  .glow-cover{
+    background-image: image-url("glowcover@2x.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .glow-cover:hover,
+  .glow-cover:focus {
+    transform: scale(1.1);
+  }
+
+  .work-img-wanderlist {
+    width: 422px;
+    height: 276px;
     position: absolute;
+    overflow:hidden;
     top:2868px;
     left:171px;
   }
 
-  .disc-cover{
+  .wanderlist-cover{
+    background-image: image-url("wanderlistcover@2x.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .wanderlist-cover:hover,
+  .wanderlist-cover:focus {
+    transform: scale(1.1);
+  }
+
+  .work-img-disc {
+    width: 422px;
+    height: 276px;
     position: absolute;
+    overflow:hidden;
     top:3016px;
     left:708px;
   }
 
-  .paperlite-cover{
+  .disc-cover{
+    background-image: image-url("disccover@2x.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .disc-cover:hover,
+  .disc-cover:focus {
+    transform: scale(1.1);
+  }
+
+  .work-img-paperlite {
+    width: 422px;
+    height: 276px;
     position: absolute;
+    overflow:hidden;
     top:3213px;
     left:81px;
   }
 
-  .localshopper-cover{
+  .paperlite-cover{
+    background-image: image-url("paperlitecover@2x.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .paperlite-cover:hover,
+  .paperlite-cover:focus {
+    transform: scale(1.1);
+  }
+
+  .work-img-localshopper {
+    width: 422px;
+    height: 265px;
     position: absolute;
+    overflow:hidden;
     top:3372px;
     left:625px;
   }
 
-  .camperworld-cover{
+  .localshopper-cover{
+    background-image: image-url("localshopper.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .localshopper-cover:hover,
+  .localshopper-cover:focus {
+    transform: scale(1.1);
+  }
+
+  .work-img-camperworld {
+    width: 422px;
+    height: 265px;
     position: absolute;
+    overflow:hidden;
     top:3604px;
     left:129px;
+  }
+
+  .camperworld-cover{
+    background-image: image-url("camperworld.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+  }
+
+  .camperworld-cover:hover,
+  .camperworld-cover:focus {
+    transform: scale(1.1);
   }
 
   .work-svgs {
