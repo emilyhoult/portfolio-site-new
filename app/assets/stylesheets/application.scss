@@ -30,14 +30,54 @@
    src: url('silka-regularitalic-webfont.ttf');
 }
 
+@font-face {
+   font-family: 'Butler-Light';
+   src: url('Butler_Light.otf');
+}
+
+@font-face {
+   font-family: 'HK Grotesk-Bold';
+   src: url('HKGrotesk-Bold.ttf');
+}
+
+@font-face {
+   font-family: 'HK Grotesk-Italic';
+   src: url('HKGrotesk-Italic.ttf');
+}
+
+@font-face {
+   font-family: 'HK Grotesk-Light';
+   src: url('HKGrotesk-Light.ttf');
+}
+
+@font-face {
+   font-family: 'HK Grotesk-Medium';
+   src: url('HKGrotesk-Medium.ttf');
+}
+
+@font-face {
+   font-family: 'HK Grotesk-Regular';
+   src: url('HKGrotesk-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'HK Grotesk-SemiBold';
+   src: url('HKGrotesk-SemiBold.ttf');
+}
+
 * {
   cursor: none;
 }
 
+// #6f6f56
+// #6b6f56
+// #566f69
+// #72725A
+
 body {
-  font-family: 'Silka Regular', sans-serif;
+  font-family: 'HK Grotesk-Regular', sans-serif;
   letter-spacing: -0.02em;
-  background-color: #0A0B0D;
+  background-color: #6b6f56;
   transition: all .2s linear;
   // height: 100vh;
   cursor: none;
@@ -46,7 +86,7 @@ body {
 .cursor {
   width: 20px;
   height: 20px;
-  background: #85ff00;
+  background: #FCFCFC;
   border-radius: 50%;
   position: fixed;
   transform: translate(-50%, -50%);
@@ -62,7 +102,7 @@ body {
 
 .grow {
   transform: scale(1.4);
-  background-color:#85ff00;
+  background-color:#FCFCFC;
   mix-blend-mode: exclusion;
   animation: mousePulse 1.4s infinite ease-in-out;
 }
@@ -85,20 +125,22 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 h1 {
-  font-family: 'Argesta Display', serif;
+  font-family: 'Butler-Light', serif;
   margin: 0 0 32px 0;
   font-weight: 400;
-  font-size: 116px;
+  font-size: 126px;
   line-height: 139.2px;
+  letter-spacing: 0.02em;
 }
 
 h2 {
-  font-family: 'Argesta Display', serif;
+  font-family: 'Butler-Light', serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 69.36px;
   padding: 0;
   margin-bottom: 48px;
+  letter-spacing: 0.02em;
 }
 
 
