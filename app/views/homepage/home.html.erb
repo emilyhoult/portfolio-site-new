@@ -104,48 +104,80 @@
       <%= image_tag("p-dot-8.svg", class: "work-svg p-dot-8") %>
       <%= image_tag("semicircle-2.svg", class: "work-svg s-circle-2") %>
     </div>
-      <a href="/work/cubo">
-          <div class="work-img-cubo" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="cubo-cover">
+    <div class="work-case-studies d-flex">
+      <div class="work-case-studies-1 col-6 d-flex justify-content-center flex-wrap">
+        <div class="work-cs-card">
+          <a href="/work/cubo">
+              <div class="work-img-cubo" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+                <div class="cubo-cover">
+                </div>
+              </div>
+          </a>
+          <div class="cs-details col">
+            <div class="row">
+              <h4 class="cs-details-title">Cubo</h5>
+            </div>
+            <div class="row d-flex justify-content-between">
+              <h5 class="cs-details-desc">Money Saving App</h6>
+              <div class="d-flex align-items-center cs-details-btn">
+                <h6 class="m-0 pr-1"><a href="/work/cubo" class="link link--line">Case Study</a></h6>
+                <%= image_tag("ArrowRight.svg", class: "arrow-right") %>
+              </div>
             </div>
           </div>
-      </a>
-    <a href="/work/glow">
-          <div class="work-img-glow" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="glow-cover">
+        </div>
+        <div class="work-cs-card">
+          <a href="/work/wanderlist">
+            <div class="work-img-wanderlist" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="wanderlist-cover">
+              </div>
             </div>
-          </div>
-    </a>
-    <a href="/work/wanderlist">
-          <div class="work-img-wanderlist" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="wanderlist-cover">
+          </a>
+        </div>
+        <div class="work-cs-card">
+          <a href="/work/paperlite">
+            <div class="work-img-paperlite" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="paperlite-cover">
+              </div>
             </div>
-          </div>
-    </a>
-    <a href="/work/disc">
-          <div class="work-img-disc" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="disc-cover">
+          </a>
+        </div>
+        <div class="work-cs-card">
+          <a href="/work/camperworld">
+            <div class="work-img-camperworld" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="camperworld-cover">
+              </div>
             </div>
-          </div>
-    </a>
-    <a href="/work/paperlite">
-          <div class="work-img-paperlite" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="paperlite-cover">
+          </a>
+        </div>
+      </div>
+      <div class="work-case-studies-2 col-6 d-flex justify-content-center flex-wrap">
+        <div class="work-cs-card">
+          <a href="/work/glow">
+            <div class="work-img-glow" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="glow-cover">
+              </div>
             </div>
-          </div>
-    </a>
-    <a href="/work/localshopper">
-          <div class="work-img-localshopper" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="localshopper-cover">
+          </a>
+        </div>
+        <div class="work-cs-card">
+          <a href="/work/disc">
+            <div class="work-img-disc" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="disc-cover">
+              </div>
             </div>
-          </div>
-    </a>
-    <a href="/work/camperworld">
-          <div class="work-img-camperworld" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
-            <div class="camperworld-cover">
+          </a>
+        </div>
+        <div class="work-cs-card">
+          <a href="/work/localshopper">
+            <div class="work-img-localshopper" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="localshopper-cover">
+              </div>
             </div>
-          </div>
-    </a>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
   <%= render 'shared/footernew' %>
 </div>

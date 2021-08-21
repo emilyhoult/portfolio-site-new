@@ -185,6 +185,38 @@
   flex-flow: row wrap;
   height: 1774px;
 
+  .cs-details {
+    max-width: 422px;
+    border-top: 1px solid #FCFCFC;
+    border-bottom: 1px solid #FCFCFC;
+    margin-top: 12px;
+    background: #6b6f56;
+
+    .cs-details-title {
+      font-family: 'Butler-Light', serif;
+      font-size: 32px;
+      letter-spacing: 0.02em;
+      padding-left: 8px;
+      padding-top: 12px;
+    }
+
+    .cs-details-desc {
+      font-family: 'HK Grotesk-Light', sans-serif;
+      font-size: 22px;
+      padding-left: 8px;
+      padding-bottom: 12px;
+    }
+
+    .cs-details-btn {
+      padding-right: 8px;
+      padding-bottom: 12px;
+    }
+  }
+
+  .work-cs-card {
+    margin-bottom: 143px;
+  }
+
   .work {
     text-align: center;
     margin-bottom: 120px;
@@ -202,21 +234,13 @@
     height:276px;
   }
 
-  // .work-img:hover {
-  //   transform: scale(1.5);
-  // }
-
-  // .work-img:hover {
-  //   background-size: auto 110%;
-  // }
-
   .work-img-cubo {
     width: 422px;
     height: 276px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:2479px;
-    left:125px;
+    // top:2479px;
+    // left:125px;
   }
 
   .cubo-cover {
@@ -236,10 +260,10 @@
   .work-img-glow {
     width: 422px;
     height: 276px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:2596px;
-    left:676px;
+    // top:2596px;
+    // left:676px;
   }
 
   .glow-cover{
@@ -259,10 +283,10 @@
   .work-img-wanderlist {
     width: 422px;
     height: 276px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:2868px;
-    left:171px;
+    // top:2868px;
+    // left:171px;
   }
 
   .wanderlist-cover{
@@ -282,10 +306,10 @@
   .work-img-disc {
     width: 422px;
     height: 276px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:3016px;
-    left:708px;
+    // top:3016px;
+    // left:708px;
   }
 
   .disc-cover{
@@ -305,10 +329,10 @@
   .work-img-paperlite {
     width: 422px;
     height: 276px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:3213px;
-    left:81px;
+    // top:3213px;
+    // left:81px;
   }
 
   .paperlite-cover{
@@ -328,10 +352,10 @@
   .work-img-localshopper {
     width: 422px;
     height: 265px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:3372px;
-    left:625px;
+    // top:3372px;
+    // left:625px;
   }
 
   .localshopper-cover{
@@ -351,10 +375,10 @@
   .work-img-camperworld {
     width: 422px;
     height: 265px;
-    position: absolute;
+    // position: absolute;
     overflow:hidden;
-    top:3604px;
-    left:129px;
+    // top:3604px;
+    // left:129px;
   }
 
   .camperworld-cover{
