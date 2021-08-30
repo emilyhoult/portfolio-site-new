@@ -15,6 +15,3 @@ ActiveStorage.start()
 
 require('../custom/cursor');
 require('../custom/scrolling');
-
-
-

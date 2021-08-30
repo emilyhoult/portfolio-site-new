@@ -1,6 +1,11 @@
 window.addEventListener("turbolinks:load", () => {
   const cursor = document.querySelector(".cursor");
 
+  document.addEventListener('mouseleave', e => {
+    const cursor = document.querySelector(".cursor");
+    cursor.style.cursor = 'none';
+  });
+
   document.addEventListener('mousemove', e => {
     cursor.setAttribute("style","top: "+(e.clientY)+"px; left: "+(e.clientX)+"px")
   });

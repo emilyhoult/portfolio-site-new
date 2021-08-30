@@ -183,14 +183,14 @@
   justify-content: center;
   margin-top: 168px;
   flex-flow: row wrap;
-  height: 1774px;
+  // height: 1774px;
 
   .cs-details {
     max-width: 422px;
     border-top: 1px solid #FCFCFC;
     border-bottom: 1px solid #FCFCFC;
     margin-top: 12px;
-    background: #6b6f56;
+    // background: #6b6f56;
 
     .cs-details-title {
       font-family: 'Butler-Light', serif;
@@ -209,7 +209,25 @@
 
     .cs-details-btn {
       padding-right: 8px;
-      padding-bottom: 12px;
+      padding-bottom: 20px;
+    }
+
+    .gh-btn {
+      padding-right: 10px;
+      padding-top: 4px;
+    }
+
+    .img.github {
+      padding-left: 2px;
+    }
+
+    .vw-live-btn {
+      padding-right: 8px;
+      padding-bottom: 20px;
+    }
+
+    .img.globe {
+      padding-left: 1px;
     }
   }
 
@@ -264,6 +282,10 @@
     overflow:hidden;
     // top:2596px;
     // left:676px;
+  }
+
+  #glow {
+    margin-top: 224px;
   }
 
   .glow-cover{
@@ -351,7 +373,7 @@
 
   .work-img-localshopper {
     width: 422px;
-    height: 265px;
+    height: 241px;
     // position: absolute;
     overflow:hidden;
     // top:3372px;
@@ -359,7 +381,7 @@
   }
 
   .localshopper-cover{
-    background-image: image-url("localshopper.jpg");
+    background-image: image-url("localshopper-gif.gif");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -374,7 +396,7 @@
 
   .work-img-camperworld {
     width: 422px;
-    height: 265px;
+    height: 241px;
     // position: absolute;
     overflow:hidden;
     // top:3604px;
@@ -382,7 +404,7 @@
   }
 
   .camperworld-cover{
-    background-image: image-url("camperworld.jpg");
+    background-image: image-url("camperworld-gif.gif");
     background-position: center;
     background-size: cover;
     width: 100%;

@@ -13,11 +13,11 @@
     <button class="" id="cv-btn" data-aos="out" data-aos-anchor-placement="top-top">Download CV</button>
   </div>
 
-  <div class="d-flex svgs circle" data-aos="out" data-aos-anchor-placement="bottom-top">
-    <%= image_tag("circle.svg", class: "circle-svg") %>
-    <%= image_tag("p-dot-1.svg", class: "p-dot-1") %>
-  </div>
 
+    <div class="d-flex svgs circle" data-aos="out" data-aos-anchor-placement="bottom-top">
+      <%= image_tag("circle.svg", class: "circle-svg") %>
+      <%= image_tag("p-dot-1.svg", class: "p-dot-1") %>
+    </div>
   <div class="about-section d-flex flex-wrap">
 
     <div class="row p-0">
@@ -94,7 +94,7 @@
 
   <div class="work-section" id="work">
     <h1 class="work col-12" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">Work</h1>
-    <div class="work-svgs">
+<!--     <div class="work-svgs">
       <%= image_tag("p-dot-3.svg", class: "work-svg p-dot-3") %>
       <%= image_tag("semicircle-1.svg", class: "work-svg s-circle-1") %>
       <%= image_tag("p-dot-4.svg", class: "work-svg p-dot-4") %>
@@ -103,21 +103,21 @@
       <%= image_tag("p-dot-7.svg", class: "work-svg p-dot-7") %>
       <%= image_tag("p-dot-8.svg", class: "work-svg p-dot-8") %>
       <%= image_tag("semicircle-2.svg", class: "work-svg s-circle-2") %>
-    </div>
+    </div> -->
     <div class="work-case-studies d-flex">
-      <div class="work-case-studies-1 col-6 d-flex justify-content-center flex-wrap">
-        <div class="work-cs-card">
+      <div class="work-case-studies-1 col-6 d-flex justify-content-center flex-wrap align-content-start">
+        <div class="work-cs-card" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
           <a href="/work/cubo">
-              <div class="work-img-cubo" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+              <div class="work-img-cubo">
                 <div class="cubo-cover">
                 </div>
               </div>
           </a>
           <div class="cs-details col">
             <div class="row">
-              <h4 class="cs-details-title">Cubo</h5>
+              <h4 class="cs-details-title">Cubo</h4>
             </div>
-            <div class="row d-flex justify-content-between">
+            <div class="row d-flex justify-content-between mt-1">
               <h5 class="cs-details-desc">Money Saving App</h6>
               <div class="d-flex align-items-center cs-details-btn">
                 <h6 class="m-0 pr-1"><a href="/work/cubo" class="link link--line">Case Study</a></h6>
@@ -126,55 +126,135 @@
             </div>
           </div>
         </div>
-        <div class="work-cs-card">
+        <div class="work-cs-card" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
           <a href="/work/wanderlist">
-            <div class="work-img-wanderlist" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+            <div class="work-img-wanderlist">
               <div class="wanderlist-cover">
               </div>
             </div>
           </a>
+          <div class="cs-details col">
+            <div class="row">
+              <h4 class="cs-details-title">Wanderlist</h4>
+            </div>
+            <div class="row d-flex justify-content-between mt-1">
+              <h5 class="cs-details-desc">Travel Booking Web-App</h6>
+              <div class="d-flex align-items-center cs-details-btn">
+                <h6 class="m-0 pr-1"><a href="/work/wanderlist" class="link link--line">Case Study</a></h6>
+                <%= image_tag("ArrowRight.svg", class: "arrow-right") %>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="work-cs-card">
+        <div class="work-cs-card" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
           <a href="/work/paperlite">
-            <div class="work-img-paperlite" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+            <div class="work-img-paperlite">
               <div class="paperlite-cover">
               </div>
             </div>
           </a>
+          <div class="cs-details col">
+            <div class="row">
+              <h4 class="cs-details-title">Paperlite</h4>
+            </div>
+            <div class="row d-flex justify-content-between mt-1">
+              <h5 class="cs-details-desc">Note-Taking App</h6>
+              <div class="d-flex align-items-center cs-details-btn">
+                <h6 class="m-0 pr-1"><a href="/work/paperlite" class="link link--line">Case Study</a></h6>
+                <%= image_tag("ArrowRight.svg", class: "arrow-right") %>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="work-cs-card">
-          <a href="/work/camperworld">
-            <div class="work-img-camperworld" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+        <div class="work-cs-card" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+          <a href="https://camperworld.herokuapp.com/" target="_blank">
+            <div class="work-img-camperworld">
               <div class="camperworld-cover">
               </div>
             </div>
           </a>
+          <div class="cs-details col">
+            <div class="row d-flex justify-content-between">
+              <h4 class="cs-details-title">Camperworld</h4>
+              <div class="d-flex align-items-center gh-btn">
+                <h6 class="m-0 pr-1"><a href="https://github.com/maisaroq/rails-camperworld" target="_blank" class="link link--line">GitHub</a></h6>
+                <%= image_tag("github.svg", class: "github") %>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-between mt-1">
+              <h5 class="cs-details-desc">Camping Rental Website</h6>
+              <div class="d-flex align-items-center vw-live-btn">
+                <h6 class="m-0 pr-1"><a href="https://camperworld.herokuapp.com/" target="_blank" class="link link--line">View Live</a></h6>
+                <%= image_tag("globe.svg", class: "globe") %>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="work-case-studies-2 col-6 d-flex justify-content-center flex-wrap">
-        <div class="work-cs-card">
+      <div class="work-case-studies-2 col-6 d-flex justify-content-center flex-wrap align-content-start">
+        <div class="work-cs-card" id="glow" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
           <a href="/work/glow">
-            <div class="work-img-glow" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+            <div class="work-img-glow">
               <div class="glow-cover">
               </div>
             </div>
           </a>
+          <div class="cs-details col">
+            <div class="row">
+              <h4 class="cs-details-title">Glow</h4>
+            </div>
+            <div class="row d-flex justify-content-between mt-1">
+              <h5 class="cs-details-desc">Positivity/Mood Tracking App</h6>
+              <div class="d-flex align-items-center cs-details-btn">
+                <h6 class="m-0 pr-1"><a href="/work/glow" class="link link--line">Case Study</a></h6>
+                <%= image_tag("ArrowRight.svg", class: "arrow-right") %>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="work-cs-card">
+        <div class="work-cs-card" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
           <a href="/work/disc">
-            <div class="work-img-disc" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+            <div class="work-img-disc">
               <div class="disc-cover">
               </div>
             </div>
           </a>
+          <div class="cs-details col">
+            <div class="row">
+              <h4 class="cs-details-title">DISC.</h4>
+            </div>
+            <div class="row d-flex justify-content-between mt-1">
+              <h5 class="cs-details-desc">Music Player App</h6>
+              <div class="d-flex align-items-center cs-details-btn">
+                <h6 class="m-0 pr-1"><a href="/work/disc" class="link link--line">Case Study</a></h6>
+                <%= image_tag("ArrowRight.svg", class: "arrow-right") %>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="work-cs-card">
-          <a href="/work/localshopper">
-            <div class="work-img-localshopper" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+        <div class="work-cs-card" data-aos="fade-zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700" data-aos-easing="ease-in-quad">
+          <a href="https://www.localshopper.me/" target="_blank">
+            <div class="work-img-localshopper">
               <div class="localshopper-cover">
               </div>
             </div>
           </a>
+          <div class="cs-details col">
+            <div class="row d-flex justify-content-between">
+              <h4 class="cs-details-title">Local Shopper</h4>
+              <div class="d-flex align-items-center gh-btn">
+                <h6 class="m-0 pr-1"><a href="https://github.com/Bard89/local_shopper" target="_blank" class="link link--line">GitHub</a></h6>
+                <%= image_tag("github.svg", class: "github") %>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-between mt-1">
+              <h5 class="cs-details-desc">Local Gift Shopping Website</h6>
+              <div class="d-flex align-items-center vw-live-btn">
+                <h6 class="m-0 pr-1"><a href="https://www.localshopper.me/" target="_blank" class="link link--line">View Live</a></h6>
+                <%= image_tag("globe.svg", class: "globe") %>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
