@@ -475,3 +475,40 @@
     }
   }
 }
+
+// small screen sizes - mobile
+@media only screen and (max-width: 425px) {
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+}
+
+// medium screen sizes - large mobile & tablet
+@media only screen and (min-width: 426px) {
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+}
+
+// large screen sizes - laptop
+@media only screen and (min-width: 1024px) {
+  .navtoggle li:not(:last-child) {
+    display: list-item;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+}
+
+// x-large screen sizes - laptop & desktop (BASE)
+@media only screen and (min-width: 1440px) {
+  .navtoggle li:not(:last-child) {
+    display: list-item;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+}
+
