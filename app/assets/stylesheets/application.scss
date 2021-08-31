@@ -79,12 +79,7 @@ body {
   font-family: 'HK Grotesk-Light', sans-serif;
   letter-spacing: -0.02em;
   background: #6b6f56;
-  // // background: -webkit-linear-gradient(70deg, hsla(71, 13%, 52%, 1), hsla(70, 13%, 44%, 1), hsla(70, 13%, 39%, 1));
-  // // background: -webkit-linear-gradient(90deg, hsla(69, 13%, 48%, 1) 0%, hsla(70, 13%, 39%, 1) 40%, hsla(69, 13%, 32%, 1) 100%);
-  // background: -webkit-linear-gradient(90deg, hsla(69, 13%, 40%, 1) 0%, hsla(70, 13%, 39%, 1) 50%, hsla(69, 13%, 32%, 1) 100%);
-  // background-attachment: fixed;
   transition: all .2s linear;
-  // height: 100vh;
   cursor: none;
 }
 
@@ -127,25 +122,6 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, li {
   color: #FCFCFC;
-}
-
-h1 {
-  font-family: 'Butler-Light', serif;
-  margin: 0 0 32px 0;
-  font-weight: 400;
-  font-size: 126px;
-  line-height: 139.2px;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-family: 'Butler-Light', serif;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 69.36px;
-  padding: 0;
-  margin-bottom: 48px;
-  letter-spacing: 0.02em;
 }
 
 

@@ -478,6 +478,7 @@
 
 // small screen sizes - mobile
 @media only screen and (max-width: 425px) {
+
   .navtoggle li:not(:last-child) {
     display: none;
   }
@@ -496,10 +497,123 @@
   .navtoggle.responsive li  {
     display: block;
   }
+
+  h1 {
+    font-family: 'Butler-Light', serif;
+    margin: 0 0 32px 0;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 139.2px;
+    letter-spacing: 0.02em;
+  }
+
+  .title.wave-animation {
+    font-size: 25px;
+  }
+
+  .p-dot-1 {
+    display: none;
+  }
+
+  .circle-svg {
+    display: none;
+  }
+
+  .p-dot-2 {
+    display: none;
+  }
+
+  .triangle-svg {
+    display: none;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+
+  .about-section {
+    .emilyhoult {
+      margin-top: 24px;
+      margin-left: 0;
+    }
+  }
+
+
+  .skills-section {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .skills-section {
+    .ui-li {
+      padding-left: 15px;
+    }
+
+    .software-li {
+      padding-left: 15px;
+    }
+  }
+  .work-section {
+    [class*="work-img-"] {
+      width: 349px;
+      height: 230px;
+    }
+    .work-img-camperworld,
+    .work-img-localshopper {
+      width: 349px;
+      height: 198px;
+    }
+    .cs-details {
+      max-width: 349px;
+      .cs-details-desc {
+        font-size: 18px;
+      }
+
+      .cs-details-title {
+        font-size: 28px;
+      }
+
+      h6 {
+        font-size: 14px;
+      }
+    }
+
+
+  }
+
+
 }
 
 // medium screen sizes - large mobile & tablet
 @media only screen and (min-width: 426px) {
+  h1 {
+    font-family: 'Butler-Light', serif;
+    margin: 0 0 32px 0;
+    font-weight: 400;
+    font-size: 126px;
+    line-height: 139.2px;
+    letter-spacing: 0.02em;
+  }
+
+  h2 {
+    font-family: 'Butler-Light', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69.36px;
+    padding: 0;
+    margin-bottom: 48px;
+    letter-spacing: 0.02em;
+  }
+
   .navtoggle li:not(:last-child) {
     display: none;
   }
@@ -528,6 +642,18 @@
 
   .navtoggle li:last-child {
     display: none;
+  }
+
+  .work-case-studies {
+    display: flex;
+  }
+
+  .work-case-studies-1,
+  .work-case-studies-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: start;
   }
 }
 
