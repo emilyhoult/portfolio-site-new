@@ -1,20 +1,20 @@
 <div class="container" id="<% if current_page?(controller: :photos, action: :photos) %>photos-navbar<% else %>navbar<% end %>" >
     <% if current_page?(controller: :homepage, action: :home) %>
       <div class="navbar justify-content-end">
-        <div class="navtoggle" id="myNavtoggle">
-          <div class="d-flex justify-content-end text-right">
+        <div class="d-flex justify-content-end text-right">
+          <div class="navtoggle" id="myNavtoggle">
             <ul>
-             <li><a href="#work" class="link link--line">Work</a></li>
-             <li><a href="#about" class="link link--line">About</a></li>
-             <li><a href="#contact" class="link link--line">Contact</a></li>
-             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><%= fa_icon "bars" %></a></li>
+             <li><a href="#work" id="nav-item" class="link link--line">Work</a></li>
+             <li><a href="#about" id="nav-item" class="link link--line">About</a></li>
+             <li><a href="#contact" id="nav-item" class="link link--line">Contact</a></li>
+             <li><a href="javascript:void(0);" class="icon" id="menu-icon"><%= fa_icon "bars" %></a></li>
            </ul>
           </div>
         </div>
       </div>
     <% else %>
-      <div class="navbar justify-content-between">
-        <div class="navtoggle" id="myNavtoggle">
+      <div class="navtoggle" id="myNavtoggle">
+        <div class="navbar justify-content-between">
           <a href="/">
             <div class="logo-box">
               <h2 class="logo">EH</h2>
@@ -24,7 +24,7 @@
              <li><a href="/#work" class="link link--line">Work</a></li>
              <li><a href="/#about" class="link link--line">About</a></li>
              <li><a href="/#contact" class="link link--line">Contact</a></li>
-             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+             <li><a href="javascript:void(0);" class="icon" id="menu-icon"><%= fa_icon "bars" %></i></a></li>
            </ul>
         </div>
       </div>

@@ -481,12 +481,42 @@
   .navtoggle li:not(:last-child) {
     display: none;
   }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+
+  .navtoggle.responsive li  {
+    display: block;
+  }
 }
 
 // medium screen sizes - large mobile & tablet
 @media only screen and (min-width: 426px) {
   .navtoggle li:not(:last-child) {
     display: none;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 24px;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+
+  .navtoggle.responsive li  {
+    display: block;
   }
 }
 

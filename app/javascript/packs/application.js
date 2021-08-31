@@ -13,5 +13,38 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+
+// require('../custom/navtoggle');
 require('../custom/cursor');
 require('../custom/scrolling');
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('menu-icon').addEventListener('click',
+    function menuToggle() {
+      var x = document.getElementById('myNavtoggle');
+      if (x.className === 'navtoggle') {
+        x.className += ' responsive';
+      } else {
+        x.className = 'navtoggle';
+      }
+    }
+  )
+
+  document.querySelectorAll('#nav-item').forEach( item => {
+    item.addEventListener('click',
+      function menuToggle() {
+        var x = document.getElementById('myNavtoggle');
+        if (x.className === 'navtoggle') {
+          x.className += ' responsive';
+        } else {
+          x.className = 'navtoggle';
+        }
+      }
+    )
+  })
+});
+
+
+
+
+
