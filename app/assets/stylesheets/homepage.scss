@@ -531,20 +531,45 @@
     display: none;
   }
 
+  .name {
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+
+  .title {
+    line-height: 40px;
+  }
+
+  #cv-btn {
+    margin-top: 32px;
+  }
+
   .about {
     margin-top: 0;
   }
 
   .about-section {
+    max-width: 350px;
+    margin: auto;
     .emilyhoult {
-      margin-top: 24px;
-      margin-left: 0;
+      max-width: 350px;
+      margin-left: 2px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    p {
+      font-size: 18px;
     }
   }
 
   [class*="col-"] {
     width: 100%;
     max-width: 100%;
+  }
+
+  .svgs.triangle {
+      margin-top: 0;
   }
 
   .skills-section {
@@ -555,6 +580,7 @@
     // margin-left: 0;
 
     .skills {
+      margin-top: 32px;
       margin-bottom: 28px;
     }
 
