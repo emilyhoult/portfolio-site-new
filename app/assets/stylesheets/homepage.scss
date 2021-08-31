@@ -542,20 +542,33 @@
     }
   }
 
-
-  .skills-section {
-    margin-top: 0;
-    margin-left: 0;
-  }
-
   [class*="col-"] {
     width: 100%;
     max-width: 100%;
   }
 
   .skills-section {
+    max-width: 350px;
+    justify-content: center;
+    margin: auto;
+    // margin-top: 0;
+    // margin-left: 0;
+
+    .skills {
+      margin-bottom: 28px;
+    }
+
+    .web-li{
+      margin-bottom: 22px;
+    }
+
     .ui-li {
-      padding-left: 15px;
+      margin-bottom: 22px;
+      text-align: right;
+    }
+
+    #ui-title {
+      justify-content: flex-end;
     }
 
     .software-li {
@@ -563,6 +576,25 @@
     }
   }
   .work-section {
+    margin-top: 32px;
+    .work {
+      margin-bottom: 32px;
+    }
+
+    .work-cs-card {
+      margin-bottom: 60px;
+    }
+
+    .work-case-studies-1,
+    .work-case-studies-2 {
+      justify-content: center;
+      margin: auto;
+    }
+
+    #glow {
+      margin-top: 60px;
+    }
+
     [class*="work-img-"] {
       width: 349px;
       height: 230px;
@@ -585,10 +617,8 @@
       h6 {
         font-size: 14px;
       }
-    }
-
-
   }
+}
 
 
 }
