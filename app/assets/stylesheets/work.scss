@@ -2,11 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-#cs-section {
+@media only screen and (min-width: 426px) {
+  #cs-section {
   margin-top: 68px;
 
-  .case-study {
-    max-width: 1103px;
+    .case-study {
+      max-width: 1103px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  #cs-section {
+  margin-top: 80px;
+    .case-study {
+      max-width: 300px;
+    }
   }
 }
 
