@@ -48,7 +48,7 @@
 
 @font-face {
    font-family: 'HK Grotesk-Light';
-   src: url('HKGrotesk-Light.otf');
+   src: url('HKGrotesk-Light.ttf');
 }
 
 @font-face {
@@ -133,6 +133,7 @@ ul {
 
 a {
   color: #FCFCFC;
+  font-family: 'HK Grotesk-Light', sans-serif;
 }
 
 
